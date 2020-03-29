@@ -4,9 +4,11 @@ class MyAnalysis:
 
     def main(self):
         reader = Reader()
-        reader.read()
+        reader.read_write()
 
         print('Done!!!')
 
 test = MyAnalysis()
 test.main()
+
+

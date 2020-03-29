@@ -4,7 +4,7 @@ import xlsxwriter
 
 class Reader():
 
-    def read(self):
+    def read_write(self):
         file = ("Input/Data Science Report.xlsx")
         wb = xlrd.open_workbook(file)
         sheet = wb.sheet_by_index(0)
